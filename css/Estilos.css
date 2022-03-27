@@ -1,0 +1,599 @@
+/* ---- reseteo ----------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ /* --- Estilos Header -------------------------- */
+header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(20, 18, 18, 0.185); 
+    position: relative;
+    padding: 1rem 5rem 6rem 5rem;
+    max-width: 1900px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.container h5 {
+ font-size: 3rem;
+}
+.header_contenedor {
+    max-width: 1900px;
+    height: 100px;
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+.cajalogo{
+    width: 250px;
+    height: auto;
+}
+
+.listas {
+    text-decoration: none;
+    color: rgb(245, 125, 56);
+    font-size: 18px;
+}
+.menuhorizontal {
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+
+
+
+/*--- Estilos del Footer ------------------------------ */
+footer{
+    background-color: rgb(17, 40, 88);
+    box-shadow: 0 2px 5px rgba(20, 18, 18, 0.185); 
+    position: relative;
+    padding-left: 8rem;
+    padding-right: 5rem;
+    max-width: auto;
+    margin: 0 auto;
+    height: 100px;
+}
+.footer__contenedor{
+    max-width: auto;
+    height: 100px;
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.footer__listas{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+
+
+
+
+
+ /* --- estilos General ---------------------------------- */
+
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+   list-style: none;  
+}
+h1, h2,  h3, h4, h5, h6 {
+    letter-spacing: -3px;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(245, 125, 56);
+    font-weight: 600;
+}
+h2 {
+    font-size: 30px ;
+    color: rgb(245, 125, 56);  
+}
+p {
+    font-size: 18px ;
+    color: rgb(245, 125, 56);
+    
+}
+
+.btn-open-sidebar{
+    display: none;
+}
+
+a:hover, h1:hover, h2:hover h5:hover {
+    color: rgb(245, 125, 56);
+}
+
+
+
+
+/* --- Estilos del Hero ----------------------------------  */
+
+.hero {
+    padding: 0 1rem;
+}
+
+.hero__contenedor {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__left, .hero__right {
+    width: 50%;
+}
+.hero__titulo {
+        font-size: 60px;
+        color: rgb(17, 50, 122);
+}
+
+.hero__subtitulo{
+    font-size: 45px;
+    color: rgb(17, 50, 122);
+}
+
+.hero__parrafo {
+    font-size: 18px;
+    color: rgb(17, 50, 122);
+    line-height: 1.5;
+    margin-bottom: 34px;
+}
+.hero__right {
+    display: flex;
+    justify-content: center;
+}
+
+.iconografia__azul{
+    display: flex;
+    flex: row;
+    gap: 40px;
+    
+}
+
+.icono__azultitulo {
+    color: rgb(17, 50, 122);
+    font-size: 20px;
+    gap: 2px;
+}
+.icono__azul{
+    color: rgb(17, 50, 122);
+    font-size: 25px;
+}
+
+
+
+/* ---Estilos del Producto------------------------------- */
+producto {
+    padding: 100px 1rem;
+    min-height: 50vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(236, 238, 241);
+    max-width: 1500px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+producto__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+producto__item{
+    border: 1px solid rgb(245, 125, 56);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 4px;
+    
+}
+producto__item i {
+    font-size: 30px;
+    color: rgb(228, 56, 56);
+    margin : 1rem;
+}
+producto__item p {
+    text-align: center;
+}
+.producto__titulo{
+    margin-bottom: 2rem;
+    text-align: center;    
+}
+
+.card-img-overlay {
+    margin: 6em;
+    padding-left: 2rem;
+    
+}
+.card-title{ 
+    color: rgb(17, 40, 88);
+}
+.card-text{
+  font-size: 18px;
+    color: rgb(17, 40, 88);
+}
+.hero__titulo--index{
+    padding-left: 11rem;
+    margin: 3rem;
+    color: rgb(17, 50, 122);
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -6;
+}
+
+
+
+
+
+/*---- Estilo Formulario ------------------- */
+.formulario {
+    height: 60vh;
+    max-width: 1200px;
+    display: flex;
+    background-color: rgb(245, 125, 56);
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+
+}
+    
+.formulario__formulario {
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(245, 125, 56);
+    color: white;
+    padding: 3rem;
+    line-height: 1.8;
+}
+
+.titulo__formulario {
+     text-align: center;
+     margin: 1rem;
+     
+}
+
+
+
+
+
+/* estilos Index -------------------------------*/
+.primer__contenedor{
+    display: flex;
+   max-width: 1400px;
+   margin: 0 auto;
+}
+
+.card-body{
+     
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    word-wrap:normal;
+    margin-bottom: 3rem;
+}
+
+/*--- Estilo de Recetas -------------------------------------- */
+ 
+.receta {
+    padding: 1rem;
+    display: flex;
+    position: relative;
+
+}
+.parrafo_receta{
+    color:rgb(95, 95, 95);
+    
+}
+
+.card-img, .card-img-top {
+    width: 30vw;
+}
+
+.receta__titulo{
+    justify-content: center;
+    font-size: 6rem;
+    color: rgb(17, 50, 122);
+    letter-spacing: -8;
+    text-align: center;
+}
+.receta__subtitulo{
+    font-size: 3rem;
+    color: rgb(17, 50, 122);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.card-img-top{
+    border-radius: 25px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    
+}
+
+.tarjeta {
+    
+    margin-bottom: 2rem;
+    border-radius: 25px;
+    word-wrap: normal;
+    max-width: 500px;
+  
+}
+
+
+.producto__titulo{
+    justify-content: center;
+    font-size: 6rem;
+    color: rgb(17, 50, 122);
+    letter-spacing: -8;
+    text-align: center;
+}
+.producto__subtitulo{
+    font-size: 3rem;
+    color: rgb(17, 50, 122);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- Animaciones -///////////////////--------------*/
+/* 
+a::after,  h1::after{
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: rgb(245, 125, 56);
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s;
+}
+
+a:hover::after, h1:hover::after{
+            transform: scaleX(1);
+            transform-origin: left;
+} */
+
+/* Animacion texto bienvenida */
+
+
+
+.title-container{
+    height: 80vh;
+}
+.text-container {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 50%;   
+    transform: translate(-50%, 50%);
+}
+
+
+.text-container p {
+    text-transform: uppercase;
+}
+
+.text1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: rgb(17, 40, 88);
+    margin-bottom: 1rem;
+    animation: text 2s 1;
+}
+.text2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(17, 40, 88);
+    
+
+}
+@keyframes text{
+    0%{
+        color:rgb(255, 255, 255);
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 3rem;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 0.5rem;
+        margin-bottom: -40px;
+    }
+
+}
+
+       
+label{
+    color: rgb(245, 125, 56);
+}
+select{
+    color: rgb(245, 125, 56);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----Media Queries Tablet ------------------------------ */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto;
+        flex-direction: column;
+       
+    }
+    .header_contenedor {
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .menuhorizontal {
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        flex-direction: column;
+    }   
+    .footer__contenedor{
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .hero__left, .hero__right {
+        max-width: 100%;
+        text-align: center;
+    }
+    .hero__right img {
+        width: 100%;
+    }
+    .hero__left img {
+        width: 100%;
+    }
+    .producto__grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px;
+    }
+    .formulario__formulario {
+        line-height: 1.6;
+    }
+    .receta__contenedor img {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* -----Media Queries Mobile -------------------------- */
+@media screen and (max-width: 600px){
+            header {
+                height: auto;
+                flex-direction: column;   
+            }
+
+            .header_contenedor {
+                height: auto;
+                flex-direction: column;
+                text-align: center;
+                
+            }
+            .menuhorizontal {
+                flex-direction: column;
+            }
+            footer{
+                height: auto;
+                flex-direction: column;
+                text-align: center;
+            }   
+            .footer__contenedor{
+                height: auto;
+                flex-direction: column;
+                
+            }
+            .hero__left, .hero__right {
+                width: 100%;
+                text-align: center;
+            }
+            .producto__grid{
+                grid-template-columns:  1fr;
+                grid-template-rows: 300px 300px 300px 300px;
+            }
+            .receta__contenedor h1 {
+                font-size: 39px;
+            }
+            .producto__titulo{ 
+                flex-direction: column;
+                justify-content: center;
+                font-size: 65px;
+            }
+            .producto__subtitulo{ 
+                flex-direction: column;
+                justify-content: center;
+                font-size: 40px;
+            }
+            .title-container .text-container {
+                flex-direction: column;
+                justify-content: center;
+                width: auto;
+            }
+            p.text1 p.text2{
+                align-items: center;
+                width: auto;
+            }
+
+}           
+
+
+
+
+
+
+
+
+
