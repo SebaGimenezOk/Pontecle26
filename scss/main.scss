@@ -107,14 +107,13 @@ h2 {
 p {
     font-size: 18px ;
     color: rgb(245, 125, 56);
-    
 }
 
 .btn-open-sidebar{
     display: none;
 }
 
-a:hover, h1:hover, h2:hover h5:hover {
+a:hover, h1:hover, h2:hover  {
     color: rgb(245, 125, 56);
 }
 
@@ -179,7 +178,7 @@ a:hover, h1:hover, h2:hover h5:hover {
 
 
 /* ---Estilos del Producto------------------------------- */
-producto {
+.producto {
     padding: 100px 1rem;
     min-height: 50vh;
     background-color: rgb(255, 255, 255);
@@ -188,7 +187,7 @@ producto {
     margin: 0 auto;
     border-radius: 20px;
 }
-producto__grid{
+.producto__grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 300px;
@@ -196,7 +195,7 @@ producto__grid{
     margin: 0 auto;
     padding: 1rem;
 }
-producto__item{
+.producto__item{
     border: 1px solid rgb(245, 125, 56);
     border-radius: 7px;
     display: flex;
@@ -207,12 +206,12 @@ producto__item{
     margin: 4px;
     
 }
-producto__item i {
+.producto__item i {
     font-size: 30px;
     color: rgb(228, 56, 56);
     margin : 1rem;
 }
-producto__item p {
+.producto__item p {
     text-align: center;
 }
 .producto__titulo{
@@ -221,7 +220,7 @@ producto__item p {
 }
 
 .card-img-overlay {
-    margin: 6em;
+    margin: 6rem;
     padding-left: 2rem;
     
 }
@@ -240,10 +239,6 @@ producto__item p {
     font-weight: 700;
     letter-spacing: -6;
 }
-
-
-
-
 
 /*---- Estilo Formulario ------------------- */
 .formulario {
@@ -272,7 +267,7 @@ producto__item p {
 .titulo__formulario {
      text-align: center;
      margin: 1rem;
-     
+    
 }
 
 
@@ -280,21 +275,17 @@ producto__item p {
 
 
 /* estilos Index -------------------------------*/
-.primer__contenedor{
-    display: flex;
-   max-width: 1400px;
-   margin: 0 auto;
+card-text p{
+ font-size: 2rem;
 }
 
 .card-body{
-     
+   
     justify-content: center;
     align-items: center;
 }
-.card{
-    word-wrap:normal;
-    margin-bottom: 3rem;
-}
+
+
 
 /*--- Estilo de Recetas -------------------------------------- */
  
@@ -304,75 +295,32 @@ producto__item p {
     position: relative;
 
 }
-.parrafo_receta{
-    color:rgb(95, 95, 95);
-    
-}
-
-.card-img, .card-img-top {
-    width: 30vw;
-}
-
-.receta__titulo{
-    justify-content: center;
-    font-size: 6rem;
-    color: rgb(17, 50, 122);
-    letter-spacing: -8;
-    text-align: center;
-}
-.receta__subtitulo{
-    font-size: 3rem;
-    color: rgb(17, 50, 122);
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-
-.card-img-top{
-    border-radius: 25px;
-    padding-top: 1rem;
+.receta__contenedor {
+    max-width: 1300px;
+    min-height: 100vh;
+    flex-wrap: nowrap;
+    justify-content: left;
     padding-left: 1rem;
-    
+    background-color: rgb(17, 40, 88);
+    margin: 0 auto ;
 }
 
-.tarjeta {
-    
-    margin-bottom: 2rem;
-    border-radius: 25px;
-    word-wrap: normal;
-    max-width: 500px;
-
+.receta__contenedor img {
+    width: 45%;
+    padding: 3rem;
 }
 
 
-.producto__titulo{
-    justify-content: center;
-    font-size: 6rem;
-    color: rgb(17, 50, 122);
-    letter-spacing: -8;
-    text-align: center;
-}
-.producto__subtitulo{
-    font-size: 3rem;
-    color: rgb(17, 50, 122);
-    text-align: center;
-    margin-bottom: 2rem;
+.receta__contenedor p {
+    line-height: 1.2;
+    padding: 2rem;
+    font-size: 16px;
 }
 
+.receta__contenedor h1 {
+    padding: 3rem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 /* ---- Animaciones -///////////////////--------------*/
 /* 
 a::after,  h1::after{
@@ -402,7 +350,7 @@ a:hover::after, h1:hover::after{
 }
 .text-container {
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 30%;
     left: 50%;   
     transform: translate(-50%, 50%);
@@ -534,9 +482,10 @@ select{
 @media screen and (max-width: 600px){
             header {
                 height: auto;
-                flex-direction: column;   
+                flex-direction: column;
+                
+               
             }
-
             .header_contenedor {
                 height: auto;
                 flex-direction: column;
@@ -567,27 +516,8 @@ select{
             .receta__contenedor h1 {
                 font-size: 39px;
             }
-            .producto__titulo{ 
-                flex-direction: column;
-                justify-content: center;
-                font-size: 65px;
-            }
-            .producto__subtitulo{ 
-                flex-direction: column;
-                justify-content: center;
-                font-size: 40px;
-            }
-            .title-container .text-container {
-                flex-direction: column;
-                justify-content: center;
-                width: auto;
-            }
-            p.text1 p.text2{
-                align-items: center;
-                width: auto;
-            }
-
-}           
+         
+}
 
 
 
