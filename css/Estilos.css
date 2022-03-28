@@ -17,6 +17,10 @@ header {
 .container h5 {
   font-size: 3rem; }
 
+.contenedora {
+  display: flex;
+  flex-direction: row; }
+
 .header_contenedor {
   max-width: 1900px;
   height: 100px;
@@ -181,9 +185,24 @@ a:hover, h1:hover, h2:hover {
   margin-bottom: 2rem;
   text-align: center; }
 
+.card-img-top {
+  border-radius: 22px; }
+
 .card-img-overlay {
   margin: 6rem;
   padding-left: 2rem; }
+
+.card-body {
+  width: auto;
+  height: 100vh;
+  border-radius: 22px;
+  padding: 1rem;
+  margin-top: 1rem; }
+
+.contenedor-receta {
+  max-width: 800px;
+  flex-direction: row;
+  flex-wrap: nowrap; }
 
 .card-title {
   color: #112858; }
@@ -230,6 +249,7 @@ card-text p {
   font-size: 2rem; }
 
 .card-body {
+  border-radius: 20px;
   justify-content: center;
   align-items: center; }
 
