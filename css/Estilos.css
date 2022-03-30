@@ -19,11 +19,7 @@ header {
 
 .contenedora {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
- }
+  flex-direction: row; }
 
 .header_contenedor {
   max-width: 1900px;
@@ -77,19 +73,11 @@ body {
   font-family: 'Montserrat', sans-serif !important;
   background-color: white; }
 
-
-
-section {
-  background-color: #eceef1;
-}
-
-
-
 li {
   list-style: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -2px; }
+  letter-spacing: -3px; }
 
 h1 {
   font-size: 70px;
@@ -157,8 +145,6 @@ a:hover, h1:hover, h2:hover {
   color: #11327a;
   font-size: 25px; }
 
-
-
 /* ---Estilos del Producto------------------------------- */
 .producto {
   padding: 100px 1rem;
@@ -197,7 +183,15 @@ a:hover, h1:hover, h2:hover {
 
 .producto__titulo {
   margin-bottom: 2rem;
-  text-align: center; }
+  text-align: center;
+  color: #11327a;
+  font-size: 73px; }
+
+.producto__subtitulo {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #11327a;
+  font-size: 45px; }
 
 .card-img-top {
   border-radius: 22px; }
@@ -208,19 +202,15 @@ a:hover, h1:hover, h2:hover {
 
 .card-body {
   width: auto;
-  
+  max-height: auto;
   border-radius: 22px;
-  padding-left: 4rem;
-  margin-top: 1rem; 
-  margin-bottom: 2rem;
-}
-
+  padding: 1rem;
+  margin-top: 1rem; }
 
 .contenedor-receta {
-  max-width: 500px;
+  max-width: 800px;
   flex-direction: row;
-  
- }
+  flex-wrap: nowrap; }
 
 .card-title {
   color: #112858; }
@@ -237,13 +227,14 @@ a:hover, h1:hover, h2:hover {
   font-weight: 700;
   letter-spacing: -6; }
 
+.tope {
+  width: 1900px;
+  margin: 0 auto; }
 
-.tarjeta{
-  margin: 2rem;
-}
-.tope{
-  width: 100%;
-}
+.produccion {
+  background-color: #dbdfe0;
+  background-image: linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c); }
+
 /*---- Estilo Formulario ------------------- */
 .formulario {
   height: 60vh;
@@ -279,27 +270,39 @@ card-text p {
   align-items: center; }
 
 /*--- Estilo de Recetas -------------------------------------- */
-.recetario{
+.receta {
+  padding: 1rem;
   display: flex;
-  flex-direction: row;
-  background-color: #eceef1;
-  max-width: auto;
-  max-height: 70vh;
-}
-.card-group{
+  position: relative; }
+
+.receta__contenedor {
+  max-width: 1300px;
+  min-height: 100vh;
+  flex-wrap: nowrap;
+  justify-content: left;
+  padding-left: 1rem;
+  background-color: #112858;
+  margin: 0 auto; }
+
+.receta__contenedor img {
+  width: 45%;
+  padding: 3rem; }
+
+.receta__contenedor p {
+  line-height: 1.2;
   padding: 2rem;
-  gap: 1rem;
-  display: flex;
-  
-}
+  font-size: 16px; }
 
+.receta__contenedor h1 {
+  padding: 3rem; }
 
+.recetario {
+  background-color: #dbdfe0;
+  background-image: linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c); }
 
-
-
-
-
-
+.card-group {
+  margin: 2rem 4rem 2rem 4rem;
+  border-radius: 25px; }
 
 /* ---- Animaciones -///////////////////--------------*/
 /* 
@@ -320,9 +323,6 @@ a:hover::after, h1:hover::after{
             transform: scaleX(1);
             transform-origin: left;
 } */
-
-
-
 /* Animacion texto bienvenida */
 .title-container {
   height: 80vh; }
@@ -366,16 +366,6 @@ label {
 
 select {
   color: #f57d38; }
-
-
-
-
-
-
-
-
-
-
 
 /*-----Media Queries Tablet ------------------------------ */
 @media screen and (max-width: 1024px) {
@@ -433,15 +423,4 @@ select {
     grid-template-columns: 1fr;
     grid-template-rows: 300px 300px 300px 300px; }
   .receta__contenedor h1 {
-    font-size: 39px; }
-  .contenedora{
-     display: flex;
-     flex-direction: column;
-     height: auto;
-     
-  }
-      
-  
-  
-  
-  }
+    font-size: 39px; } }

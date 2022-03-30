@@ -222,7 +222,15 @@ a:hover, h1:hover, h2:hover  {
 }
 .producto__titulo{
     margin-bottom: 2rem;
-    text-align: center;    
+    text-align: center;
+    color: rgb(17, 50, 122);
+    font-size: 73px;    
+}
+.producto__subtitulo{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(17, 50, 122);
+    font-size: 45px;    
 }
 
 .card-img-top {
@@ -262,6 +270,15 @@ a:hover, h1:hover, h2:hover  {
     font-size: 100px;
     font-weight: 700;
     letter-spacing: -6;
+}
+.tope{
+    width: 1900px;
+    margin: 0 auto;
+}
+.produccion{
+    background-color: #dbdfe0;
+    background-image: linear-gradient(to right, #e2cf9c,
+     #f2edd9, #f2edd9, #e2cf9c);
 }
 
 /*---- Estilo Formulario ------------------- */
@@ -345,6 +362,25 @@ card-text p{
     padding: 3rem;
 
 }
+.recetario{
+    background-color: #dbdfe0;
+    background-image: linear-gradient(to right, #e2cf9c,
+     #f2edd9, #f2edd9, #e2cf9c);
+    
+}
+.card-group{
+    margin: 2rem 4rem 2rem 4rem;
+    border-radius: 25px;
+    
+}
+
+
+    
+
+
+
+
+
 /* ---- Animaciones -///////////////////--------------*/
 /* 
 a::after,  h1::after{
