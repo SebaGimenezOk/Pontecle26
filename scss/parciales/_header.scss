@@ -1,0 +1,46 @@
+/* --- Estilos Header -------------------------- */
+header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(20, 18, 18, 0.185); 
+    position: relative;
+    padding: 1rem 5rem 6rem 5rem;
+    max-width: 1900px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.container h5 {
+ font-size: 3rem;
+}
+
+.contenedora {
+    display: flex;
+    flex-direction: row;
+
+}
+.header_contenedor {
+    max-width: 1900px;
+    height: 100px;
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+.cajalogo{
+    width: 250px;
+    height: auto;
+}
+
+.listas {
+    text-decoration: none;
+    color: rgb(245, 125, 56);
+    font-size: 18px;
+}
+.menuhorizontal {
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+
