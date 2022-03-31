@@ -310,25 +310,7 @@ card-text p{
 
     
 
-/* ---- Animaciones -///////////////////--------------*/
 
-a::after,  h1::after{
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background-color: rgb(245, 125, 56);
-            transform: scaleX(0);
-            transform-origin: right;
-            transition: transform 0.5s;
-}
-
-a:hover::after, h1:hover::after{
-            transform: scaleX(1);
-            transform-origin: left;
-} 
 
 /* Animacion texto bienvenida */
 
