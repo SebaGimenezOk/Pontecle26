@@ -7,6 +7,17 @@ header {
     max-width: 1900px;
     margin: 0 auto;
     height: 100px;
+    &_contenedor {
+        max-width: 1900px;
+        height: 100px;
+        display: flex;
+        position:relative;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;   
+    }
+
+    
 }
 
 .container h5 {
@@ -18,15 +29,7 @@ header {
     flex-direction: row;
 
 }
-.header_contenedor {
-    max-width: 1900px;
-    height: 100px;
-    display: flex;
-    position:relative;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;   
-}
+
 .cajalogo{
     width: 250px;
     height: auto;
@@ -34,7 +37,7 @@ header {
 
 .listas {
     text-decoration: none;
-    color: rgb(245, 125, 56);
+    color: $Colorprincipal;
     font-size: 18px;
 }
 .menuhorizontal {

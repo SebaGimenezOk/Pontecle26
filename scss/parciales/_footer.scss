@@ -8,22 +8,27 @@ footer{
     max-width: auto;
     margin: 0 auto;
     height: 100px;
-}
-.footer__contenedor{
-    max-width: auto;
-    height: 100px;
-    display: flex;
-    position:relative;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
+    &__contenedor{
+        max-width: auto;
+        height: 100px;
+        display: flex;
+        position:relative;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+    
+    }
+    &__listas{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+
 
 }
-.footer__listas{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 18px;
-}
+
+
  
 
 

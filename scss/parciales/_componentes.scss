@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: $tipografia-general !important;
     background-color: rgb(255, 255, 255);
 }
 
@@ -18,6 +18,7 @@ li {
 }
 h1, h2,  h3, h4, h5, h6 {
     letter-spacing: -3px;
+    color: $tipografia-general;
 }
 
 h1 {
@@ -49,39 +50,45 @@ a:hover, h1:hover, h2:hover  {
 
 .hero {
     padding: 0 1rem;
-}
-
-.hero__contenedor {
-    max-width: 1400px;
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.hero__left, .hero__right {
-    width: 50%;
-}
-.hero__titulo {
+    &__contenedor {
+        max-width: 1400px;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;   
+    }
+    &__left, &__right {
+        width: 50%;
+    }
+    &__titulo {
         font-size: 60px;
-        color: rgb(17, 50, 122);
+        color: $Colorprincipal;
+    }
+    &__subtitulo{
+        font-size: 45px;
+        color: $Colorprincipal;
+    }
+    &__parrafo {
+        font-size: 18px;
+        color: $Colorprincipal;
+        line-height: 1.5;
+        margin-bottom: 34px;
+    }
+    &__right {
+        display: flex;
+        justify-content: center;
+    }
+    &__titulo--index{
+        padding-left: 11rem;
+        margin: 3rem;
+        color: $Colorprincipal;
+        font-size: 100px;
+        font-weight: 700;
+        letter-spacing: -6;
+    }
 }
 
-.hero__subtitulo{
-    font-size: 45px;
-    color: rgb(17, 50, 122);
-}
-
-.hero__parrafo {
-    font-size: 18px;
-    color: rgb(17, 50, 122);
-    line-height: 1.5;
-    margin-bottom: 34px;
-}
-.hero__right {
-    display: flex;
-    justify-content: center;
-}
 
 .iconografia__azul{
     display: flex;
@@ -91,12 +98,12 @@ a:hover, h1:hover, h2:hover  {
 }
 
 .icono__azultitulo {
-    color: rgb(17, 50, 122);
+    color:$Colorprincipal;
     font-size: 20px;
     gap: 2px;
 }
 .icono__azul{
-    color: rgb(17, 50, 122);
+    color:$Colorprincipal;
     font-size: 25px;
 }
 
@@ -111,46 +118,52 @@ a:hover, h1:hover, h2:hover  {
     max-width: 1500px;
     margin: 0 auto;
     border-radius: 20px;
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 300px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    &__item{
+        border: 1px solid rgb(245, 125, 56);
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin: 4px;
+        
+    }
+    &__item i {
+        font-size: 30px;
+        color: rgb(228, 56, 56);
+        margin : 1rem;
+    }
+    &__item p {
+        text-align: center;
+    }
+    &__titulo{
+        margin-bottom: 2rem;
+        text-align: center;
+        color: $Colorprincipal;
+        font-size: 73px;    
+    }
+    &__subtitulo{
+        margin-bottom: 2rem;
+        text-align: center;
+        color: $Colorprincipal;
+        font-size: 45px;    
+    }
 }
-.producto__grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 300px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 1rem;
-}
-.producto__item{
-    border: 1px solid rgb(245, 125, 56);
-    border-radius: 7px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    margin: 4px;
-    
-}
-.producto__item i {
-    font-size: 30px;
-    color: rgb(228, 56, 56);
-    margin : 1rem;
-}
-.producto__item p {
-    text-align: center;
-}
-.producto__titulo{
-    margin-bottom: 2rem;
-    text-align: center;
-    color: rgb(17, 50, 122);
-    font-size: 73px;    
-}
-.producto__subtitulo{
-    margin-bottom: 2rem;
-    text-align: center;
-    color: rgb(17, 50, 122);
-    font-size: 45px;    
-}
+
+
+
+
+
+
 
 .card-img-top {
     border-radius: 22px;
@@ -176,20 +189,13 @@ a:hover, h1:hover, h2:hover  {
     
 
 .card-title{ 
-    color: rgb(17, 40, 88);
+    color: $Colorprincipal;
 }
 .card-text{
   font-size: 18px;
-    color: rgb(17, 40, 88);
+    color: $Colorprincipal;
 }
-.hero__titulo--index{
-    padding-left: 11rem;
-    margin: 3rem;
-    color: rgb(17, 50, 122);
-    font-size: 100px;
-    font-weight: 700;
-    letter-spacing: -6;
-}
+
 .tope{
     width: 1900px;
     margin: 0 auto;
@@ -253,34 +259,39 @@ card-text p{
     padding: 1rem;
     display: flex;
     position: relative;
+    &__contenedor {
+        max-width: 1300px;
+        min-height: 100vh;
+        flex-wrap: nowrap;
+        justify-content: left;
+        padding-left: 1rem;
+        background-color: $Colorprincipal;
+        margin: 0 auto ;
+    }
+    &__contenedor img {
+        width: 45%;
+        padding: 3rem;
+    }
+    &__contenedor p {
+        line-height: 1.2;
+        padding: 2rem;
+        font-size: 16px;
+    }
+    &__contenedor h1 {
+        padding: 3rem;
+    
+    }
+
 
 }
-.receta__contenedor {
-    max-width: 1300px;
-    min-height: 100vh;
-    flex-wrap: nowrap;
-    justify-content: left;
-    padding-left: 1rem;
-    background-color: rgb(17, 40, 88);
-    margin: 0 auto ;
-}
-
-.receta__contenedor img {
-    width: 45%;
-    padding: 3rem;
-}
 
 
-.receta__contenedor p {
-    line-height: 1.2;
-    padding: 2rem;
-    font-size: 16px;
-}
 
-.receta__contenedor h1 {
-    padding: 3rem;
 
-}
+
+
+
+
 .recetario{
     background-color: #dbdfe0;
     background-image: linear-gradient(to right, #e2cf9c,
@@ -296,12 +307,8 @@ card-text p{
 
     
 
-
-
-
-
 /* ---- Animaciones -///////////////////--------------*/
-/* 
+
 a::after,  h1::after{
             content: "";
             position: absolute;
@@ -318,7 +325,7 @@ a::after,  h1::after{
 a:hover::after, h1:hover::after{
             transform: scaleX(1);
             transform-origin: left;
-} */
+} 
 
 /* Animacion texto bienvenida */
 
@@ -344,14 +351,14 @@ a:hover::after, h1:hover::after{
     font-size: 4rem;
     font-weight: 700;
     letter-spacing: 0.2rem;
-    color: rgb(17, 40, 88);
+    color: $Colorprincipal;
     margin-bottom: 1rem;
     animation: text 2s 1;
 }
 .text2 {
     font-size: 2rem;
     font-weight: 500;
-    color: rgb(17, 40, 88);
+    color: $Colorprincipal;
     
 
 }
