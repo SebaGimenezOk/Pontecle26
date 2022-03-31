@@ -98,7 +98,8 @@ a:hover, h1:hover, h2:hover {
     margin-bottom: 34px; }
   .hero__right {
     display: flex;
-    justify-content: center; }
+    justify-content: space-between;
+    align-items: stretch; }
   .hero__titulo--index {
     padding-left: 11rem;
     margin: 3rem;
@@ -140,8 +141,8 @@ a:hover, h1:hover, h2:hover {
   .producto__item {
     border: 1px solid #f57d38;
     border-radius: 7px;
-    display: flex;
     flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
