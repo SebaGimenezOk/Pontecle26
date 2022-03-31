@@ -7,17 +7,16 @@ header {
     max-width: 1900px;
     margin: 0 auto;
     height: 100px;
-    &_contenedor {
-        max-width: 1900px;
-        height: 100px;
-        display: flex;
-        position:relative;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;   
-    }
-
     
+}
+.header_contenedor {
+    max-width: 1900px;
+    height: 100px;
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
 }
 
 .container h5 {
