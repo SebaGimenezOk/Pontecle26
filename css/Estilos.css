@@ -329,7 +329,7 @@ a:hover, h1:hover, h2:hover, h3:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/imagenes/fondo-section-3.jpg);
+  background-image: url(./imagenes/fondo-section-3.jpg);
   background-repeat: no-repeat;
   height: 600px;
   position: relative;
@@ -344,7 +344,7 @@ a:hover, h1:hover, h2:hover, h3:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/imagenes/fondo-section-4.jpg);
+  background-image: url(./imagenes/fondo-section-4.jpg);
   background-repeat: no-repeat;
   height: 600px;
   position: relative;
@@ -371,7 +371,7 @@ a:hover, h1:hover, h2:hover, h3:hover {
 /* Animacion texto bienvenida */
 .title-container {
   height: 70vh;
-  background-image: url(/imagenes/fondo-animacion-3.jpg);
+  background-image: url(./imagenes/fondo-animacion-3.jpg);
   background-repeat: no-repeat;
   padding: 3rem;
   margin: 2rem; }
