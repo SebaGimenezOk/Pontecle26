@@ -20,25 +20,46 @@
 
 </head>
 <body>
-    <header>        
-        <div class="header_contenedor">
-        <div>
-            <a href="../index.html"><img class="cajalogo" src="../imagenes/logo-chico-sin-fondo.png"  alt="logo chico color"> </a>
-        </div>
-        <div>
-            <nav>
-                <ul class="menuhorizontal">
-                <li><a class="listas" href="../index.html">Inicio</a></li>
-                <li><a class="listas" href="../paginas/empresa.html">Empresa</a></li>
-                <li><a class="listas" href="../paginas/productos.html">Productos</a></li>
-                <li><a class="listas" href="../paginas/recetas.html">Recetas</a></li>
-                <li><a class="listas" href="contacto.html">Contacto</a></li>
-               </ul>
-             </nav>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <img class="header_marca" src="/imagenes/logo-chico-sin-fondo.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-1 mb-lg-1">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/empresa.html">Empresa</a>
+                </li>
+           
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/recetas.html">Recetas</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./quesos.html">Quesos</li>
+                    <li><a class="dropdown-item" href="./fiambres.html">Fiambres</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./ventas.html">Ventas Por Mayor</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                </li> 
+            
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </header>
   
-    </header>
 <main>
     <!--------Primer Section------------------ -->
 

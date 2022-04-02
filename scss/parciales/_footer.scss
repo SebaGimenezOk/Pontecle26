@@ -1,13 +1,12 @@
 
 footer{
-    background-color: rgb(17, 40, 88);
     position: relative;
     padding-left: 8rem;
     padding-right: 5rem;
     max-width: 100%;
-   
+    background:$ColorDegradadoBlue;
       
-    &__listas{
+    .footer__listas{
         color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 18px;
@@ -15,7 +14,7 @@ footer{
 }
 .footer__contenedor{
     max-width: auto;
-    height: 100px;
+    height: 150px;
     display: flex;
     position:relative;
     flex-direction: row;
@@ -24,6 +23,14 @@ footer{
 }
 
  
-
+.listas {
+    text-decoration: none;
+    color: $Colorsecundario;
+    font-size: 18px;
+}
+.menuhorizontal {
+    display: flex;
+    gap: 1.5rem;
+}
 
 

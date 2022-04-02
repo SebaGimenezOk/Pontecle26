@@ -19,11 +19,11 @@
 body {
     font-family: $tipografia-general !important;
     background-color: $ColorDegradado;
-   
-   
-
+  
    
 }
+
+
 
 li {
    list-style: none;  
@@ -351,7 +351,7 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     color: $Colorsecundario;
     text-align: center;
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -361,7 +361,7 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     font-size: 0,8rem;
     text-align: center;
     position: absolute;
-    top: 75%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -369,25 +369,31 @@ a:hover, h1:hover, h2:hover, h3:hover  {
 }   
 .container{
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: auto;
 
 }
-
+.hero__right23{
+    width: 20%;
+}
 .fondosection{
     background: $ColorDegradado;
-    height: 1500px; 
+    height: 1900px; 
     margin: 2rem;
     padding: 2rem;
     display: flex;
     position: relative;
 }
 .fondosection2{
-    background: $ColorDegradado;
-    height: 400px; 
-    margin: 2rem;
     display: flex;
-    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imagenes/fondo-section-3.jpg);
+    background-repeat: no-repeat;
+    height: 600px;  
+    position:relative;
+    padding: 3rem;
+    margin: 2rem;
 }
 .titulocentro{
     
@@ -398,9 +404,13 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: $ColorDegradado;
+    background-image: url(/imagenes/fondo-section-4.jpg);
+    background-repeat: no-repeat;
     height: 600px;  
     position:relative;
+    padding: 3rem;
+    margin: 2rem;
+
 }
 
 .reggiano{
@@ -409,15 +419,17 @@ a:hover, h1:hover, h2:hover, h3:hover  {
 }
 .reggiano_titulo{
     color: $Colorprincipal;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 500;
-    letter-spacing: -12px;
+    letter-spacing: -8px;
 }
-.hero__contenedor2{
+.hero__contenedor23{
         max-width: 1400px;
         margin: 16px;
         min-height: 90vh;
-        @include SuperFlex(space-between, center);
+        justify-content: end;
+        align-items: center;
+        display: flex;
         
 }
 
@@ -428,6 +440,11 @@ a:hover, h1:hover, h2:hover, h3:hover  {
 
 .title-container{
     height: 70vh;
+    background-image: url(/imagenes/fondo-animacion-3.jpg);
+    background-repeat: no-repeat;
+    padding: 3rem;
+    margin: 2rem;
+
 }
 .text-container {
     text-align: center;
