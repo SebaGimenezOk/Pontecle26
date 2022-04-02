@@ -304,11 +304,13 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     background-color: #dbdfe0;
     background-image: linear-gradient(to right, #e2cf9c,
      #f2edd9, #f2edd9, #e2cf9c);
+
     
 }
 .card-group{
     margin: 2rem 4rem 2rem 4rem;
     border-radius: 25px;
+    width: 100%;
     
 }
 // ----Galeria index.-----------
@@ -370,7 +372,7 @@ a:hover, h1:hover, h2:hover, h3:hover  {
 .container{
     display: flex;
     width: 100%;
-    margin: auto;
+    
 
 }
 .hero__right23{
@@ -388,7 +390,7 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./imagenes/fondo-section-3.jpg);
+    background-image: url(/imagenes/fondo-section-3.jpg);
     background-repeat: no-repeat;
     height: 600px;  
     position:relative;
@@ -404,7 +406,7 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./imagenes/fondo-section-4.jpg);
+    background-image: url(/imagenes/fondo-section-4.jpg);
     background-repeat: no-repeat;
     height: 600px;  
     position:relative;
@@ -412,7 +414,17 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     margin: 2rem;
 
 }
-
+.fondosection4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 400px;  
+    position:relative;
+    padding: 3rem;
+    margin: 2rem;
+    width: 100%;
+}
 .reggiano{
     width: 100%;
     
@@ -432,7 +444,14 @@ a:hover, h1:hover, h2:hover, h3:hover  {
         display: flex;
         
 }
-
+.reggiano_titulo2{
+    color: rgb(245, 125, 56);
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}   
 
 
 
@@ -440,7 +459,7 @@ a:hover, h1:hover, h2:hover, h3:hover  {
 
 .title-container{
     height: 70vh;
-    background-image: url(./imagenes/fondo-animacion-3.jpg);
+    background-image: url(/imagenes/fondo-animacion-3.jpg);
     background-repeat: no-repeat;
     padding: 3rem;
     margin: 2rem;
