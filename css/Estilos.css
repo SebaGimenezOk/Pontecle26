@@ -482,7 +482,9 @@ footer {
   .text2 {
     flex-direction: column;
     font-size: 40px;
-    text-align: center; } }
+    text-align: center; }
+  .reggiano_titulo {
+    display: none; } }
 
 /* -----Media Queries Mobile -------------------------- */
 @media screen and (max-width: 600px) {
@@ -526,4 +528,6 @@ footer {
     flex-direction: column;
     height: auto;
     justify-content: center;
-    align-items: center; } }
+    align-items: center; }
+  .reggiano_titulo {
+    display: none; } }
