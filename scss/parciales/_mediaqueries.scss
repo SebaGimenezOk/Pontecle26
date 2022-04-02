@@ -6,7 +6,7 @@
         flex-direction: column;
        
     }
-    .header_contenedor {
+    .header_header {
         height: auto;
         flex-direction: column;
         
@@ -43,6 +43,18 @@
     .receta__contenedor img {
         display: none;
     }
+    .text1{
+        flex-direction: column;
+        font-size: 70px;
+        text-align: center;
+    }
+    .text2{
+        flex-direction: column;
+        font-size: 40px;
+        text-align: center;
+    }
+
+
 
 }
 
@@ -63,7 +75,7 @@
                 
                
             }
-            .header_contenedor {
+            .header_header {
                 height: auto;
                 flex-direction: column;
                 text-align: center;
@@ -93,5 +105,26 @@
             .receta__contenedor h1 {
                 font-size: 39px;
             }
-         
+            .bg-dark{
+                 height: auto;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .title-container{
+                display: none;
+            }
+            .fondosection, .fondosection2, .fondosection3{
+                flex-direction: column;
+                height: auto;
+            }
+            .grid{
+                height: auto;
+                flex-direction: column;
+            }
+            .hero__contenedor, .hero__contenedor2{
+                     flex-direction: column;
+                     height: auto;
+                     justify-content: center;
+                     align-items: center;
+            }
 }

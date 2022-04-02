@@ -1,48 +1,62 @@
 /* --- Estilos Header -------------------------- */
-header {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 2px 5px rgba(20, 18, 18, 0.185); 
-    position: relative;
-    padding: 1rem 5rem 6rem 5rem;
-    max-width: 1900px;
-    margin: 0 auto;
-    height: 100px;
+header{
+    background: $ColorDegradadoBlue;
+    height: 100px;  
+    
     
 }
-.header_contenedor {
-    max-width: 1900px;
-    height: 100px;
+
+
+.header_header{
     display: flex;
-    position:relative;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;   
+    padding-left: 7rem;
+    padding-right: 9rem;
+    height: 100%;
+   
+}
+.header_marca{
+    width: 190px;
+    height: 190px;
 }
 
-.container h5 {
- font-size: 3rem;
+.header_marca img {
+    height: 100%;
 }
+
 
 .contenedora {
     display: flex;
     flex-direction: row;
+    background-color: $ColorDegradado;
 
 }
-
-.cajalogo{
-    width: 250px;
-    height: auto;
+.bg-dark{
+    
+    padding-left: 7rem;
+    padding-right: 9rem;
+    gap: 3rem;
+    background: $ColorDegradadoBlue;
+    
+ 
 }
+
+
 
 .listas {
     text-decoration: none;
-    color: $Colorprincipal;
+    color: $Colorsecundario;
     font-size: 18px;
 }
 .menuhorizontal {
     display: flex;
     gap: 1.5rem;
 }
-
+.dropdown-item, .dropdown-menu, .dropdown-divider{
+    background:$ColorDegradadoBlue;
+    color:     $Colorsecundario;
+}
 
 

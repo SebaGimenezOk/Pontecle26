@@ -18,26 +18,25 @@
 
 body {
     font-family: $tipografia-general !important;
-    background-color: rgb(255, 255, 255);
+    background-color: $ColorDegradado;
+   
+   
+
+   
 }
 
 li {
    list-style: none;  
 }
-h1, h2,  h3, h4, h5, h6 {
-    letter-spacing: -3px;
+h1 h2 h3 h4 h5 h6 {
+    letter-spacing: -2px;
     color: $tipografia-general;
+    color: $Colorprincipal;
+    
 }
 
-h1 {
-    font-size: 70px;
-    color: rgb(245, 125, 56);
-    font-weight: 600;
-}
-h2 {
-    font-size: 30px ;
-    color: rgb(245, 125, 56);  
-}
+
+
 p {
     font-size: 18px ;
     color: rgb(245, 125, 56);
@@ -47,7 +46,7 @@ p {
     display: none;
 }
 
-a:hover, h1:hover, h2:hover  {
+a:hover, h1:hover, h2:hover, h3:hover  {
     color: rgb(245, 125, 56);
 }
 
@@ -193,6 +192,7 @@ a:hover, h1:hover, h2:hover  {
 
 .card-title{ 
     color: $Colorprincipal;
+
 }
 .card-text{
   font-size: 18px;
@@ -244,7 +244,7 @@ a:hover, h1:hover, h2:hover  {
 
 
 /* estilos Index -------------------------------*/
-card-text p{
+.card-text p{
  font-size: 2rem;
 }
 
@@ -253,7 +253,12 @@ card-text p{
     justify-content: center;
     align-items: center;
 }
+.contenedor__index{
+   display: flex;
+   padding: 3rem;
+   margin-bottom: 4rem;
 
+}
 
 
 /*--- Estilo de Recetas -------------------------------------- */
@@ -306,23 +311,128 @@ card-text p{
     border-radius: 25px;
     
 }
+// ----Galeria index.-----------
 
 
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 1rem;
+    width: 100%;
     
+   
+
+   
+}
+.grid__container__img{
+    width: 100%;
+    border-radius: 23px;
+    
+}
+
+.overlay{
+    background-color: $Colorprincipal;
+    opacity: 0;
+    height: 100%;
+    z-index: 1;
+    transform: translate(0%, -100%);
+    transition: 0.8s ease;
+    position: relative;
+    border-radius: 23px;
+}
+.grid__container:hover .overlay{
+    opacity: 1;
+}
+.overlay__title{
+    font-size: 1,2 rem;
+    color: $Colorsecundario;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.overlay__description{
+    color: $Colorsecundario;
+    font-size: 0,8rem;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}   
+.container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+}
+
+.fondosection{
+    background: $ColorDegradado;
+    height: 1500px; 
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    position: relative;
+}
+.fondosection2{
+    background: $ColorDegradado;
+    height: 400px; 
+    margin: 2rem;
+    display: flex;
+    position: relative;
+}
+.titulocentro{
+    
+    color: rgb(245, 125, 56);
+    height: 300px;
+}
+.fondosection3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ColorDegradado;
+    height: 600px;  
+    position:relative;
+}
+
+.reggiano{
+    width: 100%;
+    
+}
+.reggiano_titulo{
+    color: $Colorprincipal;
+    font-size: 8rem;
+    font-weight: 500;
+    letter-spacing: -12px;
+}
+.hero__contenedor2{
+        max-width: 1400px;
+        margin: 16px;
+        min-height: 90vh;
+        @include SuperFlex(space-between, center);
+        
+}
+
 
 
 
 /* Animacion texto bienvenida */
 
-
-
 .title-container{
-    height: 80vh;
+    height: 70vh;
 }
 .text-container {
     text-align: center;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;   
     transform: translate(-50%, 50%);
 }
@@ -333,7 +443,7 @@ card-text p{
 }
 
 .text1 {
-    font-size: 4rem;
+    font-size: 7rem;
     font-weight: 700;
     letter-spacing: 0.2rem;
     color: $Colorprincipal;
@@ -341,8 +451,8 @@ card-text p{
     animation: text 2s 1;
 }
 .text2 {
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 600;
     color: $Colorprincipal;
     
 
@@ -353,7 +463,7 @@ card-text p{
         margin-bottom: -40px;
     }
     30%{
-        letter-spacing: 3rem;
+        letter-spacing: 5rem;
         margin-bottom: -40px;
     }
     85%{

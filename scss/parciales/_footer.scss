@@ -1,14 +1,12 @@
 
 footer{
     background-color: rgb(17, 40, 88);
-    box-shadow: 0 2px 5px rgba(20, 18, 18, 0.185); 
     position: relative;
     padding-left: 8rem;
     padding-right: 5rem;
-    max-width: auto;
-    margin: 0 auto;
-    height: 100px;
+    max-width: 100%;
    
+      
     &__listas{
         color: rgb(255, 255, 255);
         text-decoration: none;
