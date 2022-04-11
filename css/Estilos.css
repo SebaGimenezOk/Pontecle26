@@ -261,7 +261,8 @@ a:hover, h1:hover, h2:hover, h3:hover {
 
 .recetario {
   background-color: #dbdfe0;
-  background-image: linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c); }
+  background-image: linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c);
+  border: 40px; }
 
 .card-group {
   margin: 2rem 4rem 2rem 4rem;
@@ -380,11 +381,12 @@ a:hover, h1:hover, h2:hover, h3:hover {
 
 .reggiano_titulo2 {
   color: #f57d38;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 700;
   letter-spacing: -2px;
   margin-bottom: 1rem;
-  padding: 1rem; }
+  padding: 1rem;
+  justify-content: center; }
 
 /* Animacion texto bienvenida */
 .title-container {

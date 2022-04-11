@@ -304,6 +304,7 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     background-color: #dbdfe0;
     background-image: linear-gradient(to right, #e2cf9c,
      #f2edd9, #f2edd9, #e2cf9c);
+    border: 40px;
 
     
 }
@@ -446,11 +447,12 @@ a:hover, h1:hover, h2:hover, h3:hover  {
 }
 .reggiano_titulo2{
     color: rgb(245, 125, 56);
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
     letter-spacing: -2px;
     margin-bottom: 1rem;
     padding: 1rem;
+    justify-content: center;
 }   
 
 
