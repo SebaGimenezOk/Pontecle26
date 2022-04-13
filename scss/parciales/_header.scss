@@ -1,8 +1,40 @@
 /* --- Estilos Header -------------------------- */
-header{
-    background: $ColorDegradadoBlue;
-    height: 100px;  
+.header{
+   background-image: url(/imagenes/fondo-header-1.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   color: #fff;
+   height: 100vh;
+   padding: 4rem;
+   padding-top: 1rem; }
+
+.navbar{
+      height: 10vh;
+      background-color: $ColorDegradadoBlue;
 }
+
+nav{
+    align-items: center;
+    
+}
+
+.logobox{
+    width: 90px;
+    height: 90px;
+    display:flex;
+    align-items: center;
+
+}
+
+.logotamaño{
+    width: 100;
+    height: 100;
+}
+
+
+
 
 
 .header_header{
@@ -20,8 +52,8 @@ header{
     height: 190px;
 }
 
-.header_marca img {
-    height: 100%;
+.header__marca img {
+    height: 40;
 }
 
 
@@ -31,19 +63,17 @@ header{
     background-color: $ColorDegradado;
 
 }
-.bg-dark{
+.bg-transparencia{
     
-    padding-left: 7rem;
-    padding-right: 9rem;
-    gap: 3rem;
-    background: $ColorDegradadoBlue;
-    
- 
+   
+    background-color:$Transparencia;
 }
+    
 
 
 
-.listas {
+
+.lista-menu {
     text-decoration: none;
     color: $Colorsecundario;
     font-size: 18px;

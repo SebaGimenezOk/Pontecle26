@@ -13,24 +13,25 @@
     align-items:$eje-secundario ;
 }
 
+
  /* --- estilos General ---------------------------------- */
 
 
 body {
     font-family: $tipografia-general !important;
     background-color: $ColorDegradado;
-  
-   
+
 }
 
 
 
 li {
-   list-style: none;  
-}
+   list-style: none; }
+
+   
 h1 h2 h3 h4 h5 h6 {
     letter-spacing: -2px;
-    color: $tipografia-general;
+    font-family: $tipografia-general;
     color: $Colorprincipal;
     
 }
