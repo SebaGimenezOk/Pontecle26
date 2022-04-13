@@ -7,13 +7,13 @@
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  height: 100vh;
+  height: 10vh;
   padding: 4rem;
   padding-top: 1rem; }
 
-.navbar {
+.envoltura-header {
   height: 10vh;
-  background-color: linear-gradient(to right, #11327a, #11327a, #376fce, #11327a); }
+  background-color: #11327a; }
 
 nav {
   align-items: center; }
