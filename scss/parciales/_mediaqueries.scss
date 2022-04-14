@@ -1,61 +1,12 @@
 /*-----Media Queries Tablet ------------------------------ */
 
 @media screen and (max-width: 1024px) {
-    header {
-        height: auto;
-        flex-direction: column;
-       
-    }
-    .header_header {
-        height: auto;
-        flex-direction: column;
-        
-    }
-    .menuhorizontal {
-        flex-direction: column;
-    }
     footer{
-        height: auto;
-        flex-direction: column;
-    }   
-    .footer__contenedor{
-        height: auto;
+        display: flex;
         flex-direction: column;
         
-    }
-    .hero__left, .hero__right {
-        max-width: 100%;
-        text-align: center;
-    }
-    .hero__right img {
-        width: 100%;
-    }
-    .hero__left img {
-        width: 100%;
-    }
-    .producto__grid{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 300px 300px;
-    }
-    .formulario__formulario {
-        line-height: 1.6;
-    }
-    .receta__contenedor img {
-        display: none;
-    }
-    .text1{
-        flex-direction: column;
-        font-size: 70px;
-        text-align: center;
-    }
-    .text2{
-        flex-direction: column;
-        font-size: 40px;
-        text-align: center;
-    }
 
-
-
+    } 
 }
 
 
@@ -69,62 +20,11 @@
 
 /* -----Media Queries Mobile -------------------------- */
 @media screen and (max-width: 600px){
-            header {
-                height: auto;
-                flex-direction: column;
-                
-               
-            }
-            .header_header {
-                height: auto;
-                flex-direction: column;
-                text-align: center;
-                
-            }
-            .menuhorizontal {
-                flex-direction: column;
-            }
-            footer{
-                height: auto;
-                flex-direction: column;
-                text-align: center;
-            }   
-            .footer__contenedor{
-                height: auto;
-                flex-direction: column;
-                
-            }
-            .hero__left, .hero__right {
-                width: 100%;
-                text-align: center;
-            }
-            .producto__grid{
-                grid-template-columns:  1fr;
-                grid-template-rows: 300px 300px 300px 300px;
-            }
-            .receta__contenedor h1 {
-                font-size: 39px;
-            }
-            .bg-dark{
-                 height: auto;
-                flex-direction: column;
-                flex-wrap: wrap;
-            }
-            .title-container{
-                display: none;
-            }
-            .fondosection, .fondosection2, .fondosection3{
-                flex-direction: column;
-                height: auto;
-            }
-            .grid{
-                height: auto;
-                flex-direction: column;
-            }
-            .hero__contenedor, .hero__contenedor2{
-                     flex-direction: column;
-                     height: auto;
-                     justify-content: center;
-                     align-items: center;
-            }
+     footer{
+         display: flex;
+         flex-direction: column;
+         
+
+     } 
+
 }
