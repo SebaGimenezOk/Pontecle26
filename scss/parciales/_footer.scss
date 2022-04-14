@@ -1,6 +1,23 @@
 
-
 .foot{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 15px;
+    background-color: #040c1f;
+    color: #f2edd9;
+
+}
+.foot-social{
+    display: flex;
+    align-items: flex-start;
+    width: 30%;
+    gap: 2rem;
+}
+
+.foot2{
     display: flex;
     justify-content: space-evenly;
     height: 40vh;
@@ -19,6 +36,12 @@
     height: 30vh;
     width: 60vh;
     
+}
+.listaF{
+    display: flex;
+    text-align: start;
+   
+
 }
 .logobox img{
     width: 100%;
@@ -39,5 +62,22 @@
 .parrafo-lista{
      font-size: 14px;
      margin-bottom: 5px;
+    
      
+}
+.icono-blanco{
+   
+    color: #f2edd9;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+.linkeado{
+    color: #f2edd9;
+
+}
+.icono-foot{
+    color: #f2edd9;
+    font-size: 28px;
 }

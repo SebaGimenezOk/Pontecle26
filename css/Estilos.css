@@ -1,69 +1,7 @@
-@charset "UTF-8";
 /* --- Estilos Header -------------------------- */
-.header {
-  background-image: url(/imagenes/fondo-header-1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #fff;
-  height: 10vh;
-  padding: 4rem;
-  padding-top: 1rem; }
-
 .envoltura-header {
   height: 10vh;
   background-color: #11327a; }
-
-nav {
-  align-items: center; }
-
-.logobox {
-  width: 90px;
-  height: 90px;
-  display: flex;
-  align-items: center; }
-
-.logotamaño {
-  width: 100;
-  height: 100; }
-
-.header_header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 7rem;
-  padding-right: 9rem;
-  height: 100%; }
-
-.header_marca {
-  width: 190px;
-  height: 190px; }
-
-.header__marca img {
-  height: 40; }
-
-.contenedora {
-  display: flex;
-  flex-direction: row;
-  background-color: linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c); }
-
-.bg-transparencia {
-  background-color: rgba(255, 255, 255, 0.023); }
-
-.lista-menu {
-  text-decoration: none;
-  color: #f2edd9;
-  font-size: 18px; }
-
-.menuhorizontal {
-  display: flex;
-  gap: 1.5rem; }
-
-.dropdown-item, .dropdown-menu, .dropdown-divider {
-  background: linear-gradient(to right, #11327a, #11327a, #376fce, #11327a);
-  color: #f2edd9; }
 
 /* ---- reseteo ----------------------------------- */
 * {
@@ -459,6 +397,22 @@ select {
 .foot {
   display: flex;
   justify-content: space-evenly;
+  height: 20vh;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 15px;
+  background-color: #040c1f;
+  color: #f2edd9; }
+
+.foot-social {
+  display: flex;
+  align-items: flex-start;
+  width: 30%;
+  gap: 2rem; }
+
+.foot2 {
+  display: flex;
+  justify-content: space-evenly;
   height: 40vh;
   padding-top: 1rem;
   padding-left: 1rem;
@@ -472,6 +426,10 @@ select {
   text-align: start;
   height: 30vh;
   width: 60vh; }
+
+.listaF {
+  display: flex;
+  text-align: start; }
 
 .logobox img {
   width: 100%;
@@ -490,6 +448,20 @@ select {
 .parrafo-lista {
   font-size: 14px;
   margin-bottom: 5px; }
+
+.icono-blanco {
+  color: #f2edd9;
+  font-size: 12px; }
+
+a {
+  text-decoration: none; }
+
+.linkeado {
+  color: #f2edd9; }
+
+.icono-foot {
+  color: #f2edd9;
+  font-size: 28px; }
 
 /*-----Media Queries Tablet ------------------------------ */
 @media screen and (max-width: 1024px) {
