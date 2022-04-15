@@ -1,7 +1,7 @@
 /*-----Media Queries Tablet ------------------------------ */
 
 @media screen and (max-width: 1024px) {
-    footer{
+    .foot{
         display: flex;
         flex-direction: column;
         
@@ -20,11 +20,16 @@
 
 /* -----Media Queries Mobile -------------------------- */
 @media screen and (max-width: 600px){
-     footer{
+     .foot{
          display: flex;
          flex-direction: column;
+         flex-wrap: nowrap;
          
 
      } 
-
+    .S7contenedor{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }

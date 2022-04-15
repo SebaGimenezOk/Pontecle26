@@ -1,0 +1,113 @@
+// ----section 1------
+.S1contenedor{
+    
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    background-color:  #f2edd9;
+}
+.S1logobox img{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+.S1logobox{
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---section 2 -------
+
+// ---section 3--------
+
+// ---section 4--------
+
+
+// ---section 5--------
+
+
+// ---section 6--------
+
+// ---section 7--------
+.S7contenedor{
+    display: flex;
+    justify-content: space-evenly;
+  
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    background-color:  #f2edd9;
+    color: #11327a;
+}
+.S7listaA{ 
+    align-self: flex-start;
+}
+
+.S7listaA .S7listaB .S7listaC{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    height: 30vh;
+    width: 60vh;
+}
+.S7title-lista{
+    font-size: 23px;
+    margin-bottom: 14px;
+    padding-top: 1rem;
+}
+.S7parrafo-lista{
+     font-size: 14px;
+     margin-bottom: 5px;
+}
+.S7logobox img{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+.S7logobox{
+    width: 300;
+    height: 150px;
+    object-fit: cover;
+    display: flex;
+
+}
+.S7icono{
+   
+    color:#11327a;
+    font-size: 12px;
+}
+
+// ---section 8--------
+
+// ---section 9--------
