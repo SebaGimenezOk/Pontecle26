@@ -7,6 +7,11 @@
         
 
     } 
+    .s7-contenedor{
+        flex-direction: row;
+    }
+
+
 }
 
 
@@ -25,11 +30,28 @@
          flex-direction: column;
          flex-wrap: nowrap;
          
-
      } 
-    .S7contenedor{
+    .s1search{
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+
     }
+    .s7-contenedor{
+        flex-direction: column;
+    }
+    
+    .s1-title{
+        font-weight: 700;
+        color: #f2edd9;
+        font-size: auto;
+        padding-top: 0rem;
+        text-align: center;
+        text-shadow: 2px 2px 4px #722a06;
+        flex-direction: column;
+
+    }
+   
+}
+@media screen and (max-width: 300px){
+  
 }
