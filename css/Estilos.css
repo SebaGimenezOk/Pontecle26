@@ -466,9 +466,7 @@ a {
 @media screen and (max-width: 1024px) {
   .foot {
     display: flex;
-    flex-direction: column; }
-  .s7-contenedor {
-    flex-direction: row; } }
+    flex-direction: column; } }
 
 /* -----Media Queries Mobile -------------------------- */
 @media screen and (max-width: 600px) {
@@ -510,6 +508,7 @@ a {
 
 .S7-contenedor {
   display: flex;
+  justify-content: space-evenly;
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
