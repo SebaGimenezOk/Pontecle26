@@ -477,6 +477,17 @@ a {
   .s1search {
     display: flex;
     flex-direction: column; }
+  .s2-contenedor {
+    flex-direction: column;
+    gap: 12px; }
+  .s3-contenedor {
+    flex-direction: column;
+    gap: 12px; }
+  .s3-logobox {
+    object-fit: cover;
+    display: flex;
+    height: 300px !important;
+    width: 300px !important; }
   .s7-contenedor {
     flex-direction: column; }
   .envolvente-ab {
@@ -523,45 +534,100 @@ a {
 
 .s2-contenedor {
   display: flex;
-  width: 1200px;
-  height: 400px;
+  justify-content: space-evenly;
+  padding: 100px 1rem;
   margin: 12px;
   background-color: #f2edd9;
-  padding: 12px;
   border-radius: 10px;
-  gap: 20px; }
+  gap: 14px; }
+
+.s2-ladoA .s2-ladoB {
+  width: 50%; }
+
+.s2-ladoA {
+  background-color: #11327a;
+  width: 750px;
+  height: 400px;
+  object-fit: cover; }
+
+.s2-ladoB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5px; }
 
 .s2-logobox {
-  max-width: 100%;
-  height: 400px;
-  object-fit: cover;
   display: flex;
-  margin-top: 12px;
-  margin-bottom: 12px; }
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
 
 .s2-logobox img {
   width: 100%;
   height: 100%; }
 
+.s2-titular {
+  color: #11327a;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-top: 12px; }
+
+.s2-parrafo {
+  font-size: 17px;
+  margin-bottom: 5px;
+  display: flex; }
+
+.sp-titular {
+  color: #11327a;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  padding-left: 26%; }
+
 .s3-contenedor {
   display: flex;
-  flex-direction: row;
-  justify-content: center; }
+  justify-content: space-evenly;
+  padding: 60px 1rem;
+  margin: 12px;
+  border-radius: 10px;
+  gap: 24px;
+  background-image: url(/imagenes/fondo-prod-26.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .s3-bloque1 .s2-bloque2 {
-  margin: 12px; }
+  width: 50%;
+  display: flex; }
 
 .s3-logobox {
-  max-width: 100%;
-  height: 400px;
   object-fit: cover;
   display: flex;
-  margin-top: 12px;
-  margin-bottom: 12px; }
+  height: 250px;
+  width: 450px;
+  border-radius: 26px; }
 
 .s3-logobox img {
   width: 100%;
   height: 100%; }
+
+.s3-titular {
+  color: #11327a;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-top: 12px;
+  justify-content: center;
+  align-items: center; }
+
+.s3-parrafo {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: flex;
+  color: #143d93;
+  justify-content: start;
+  align-items: flex-start; }
 
 .s4-contenedor {
   display: flex;

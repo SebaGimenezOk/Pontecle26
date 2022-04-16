@@ -33,6 +33,21 @@
         flex-direction: column;
 
     }
+    .s2-contenedor{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .s3-contenedor{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .s3-logobox{
+        object-fit: cover;
+        display: flex;
+        height: 300px !important;
+        width: 300px !important;
+    }
+
     .s7-contenedor{
         flex-direction: column;
     }
