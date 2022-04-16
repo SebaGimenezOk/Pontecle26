@@ -37,6 +37,13 @@
         flex-direction: column;
     }
     
+.s1-logobox2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
     .s1-title{
         font-weight: 700;
         color: #f2edd9;
@@ -47,8 +54,16 @@
         flex-direction: column;
 
     }
+    .form-control{
+        width: 50% !important;
+        display: flex;
+        align-items: center;
+    }
+    .form{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
    
-}
-@media screen and (max-width: 300px){
-  
+   
 }
