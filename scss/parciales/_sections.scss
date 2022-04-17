@@ -120,7 +120,24 @@
 
 }
 
+.scontenedor-divisor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    padding: 4px;
+}
 
+.s-divisor{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   
+    
+}
 // ---section 3--------
 .s3-contenedor{
     display: flex;
@@ -129,9 +146,7 @@
     margin: 12px;
     border-radius: 10px;
     gap: 24px;
-    background-image: url(/imagenes/fondo-prod-26.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: #f2edd9;
     
     
 }
