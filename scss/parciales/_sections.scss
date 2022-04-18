@@ -1,0 +1,403 @@
+// ----section 1------
+.s1-contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: cover;
+    
+    
+        
+}
+.envolvente-ab{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.s1-titular{
+    color: #f2edd9;
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow: rgb(26, 4, 4) 1px 0 10px;
+
+}
+
+.S1logobox img{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+.S1-logobox{
+    
+    height:80vh;
+    
+    object-fit: cover;
+    display: flex;
+   
+    
+
+}
+.s1-logobox2{
+    height: 150px;
+    width: 500px;
+    object-fit: cover;
+    display: flex;
+    padding-left: 5px;
+}
+
+
+// ---section 2 -------
+
+.s2-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 1rem;
+    margin: 12px;
+    background-color: #f2edd9;
+    border-radius: 10px;
+    gap: 14px;
+    
+   
+}
+
+.s2-ladoA .s2-ladoB {
+         width: 50%;
+}
+
+.s2-ladoA{
+  display: flex;
+  background-color: #11327a;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.s2-ladoB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5px;
+    
+}   
+
+.s2-logobox{
+      display: flex; 
+      object-fit: cover;
+      width: 100%;
+      
+      
+}
+
+.s2-logobox img{
+    width: 100%;
+    height: 100%;  
+}
+.s2-titular{
+    color: #11327a;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin-top: 12px;
+}
+.s2-parrafo{
+    font-size: 17px;
+    margin-bottom: 5px;
+    display: flex;
+   
+}
+
+.sp-titular{
+    color: #11327a;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    padding-left:  26%;
+
+}
+
+.scontenedor-divisor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    padding: 4px;
+}
+
+.s-divisor{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+// ---section 3--------
+.s3-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 1rem;
+    margin: 12px;
+    border-radius: 10px;
+    gap: 24px;
+   background-color: #f2edd9;
+    
+    
+}
+
+
+
+.s3-bloque1 .s2-bloque2{
+    width: 50%;
+    display: flex;
+    
+    
+}
+.s3-logobox{
+      object-fit: cover;
+      display: flex;
+      height: 250px;
+      width: 450px;
+      border-radius: 26px;
+      
+}
+
+.s3-logobox img{
+    width: 100%;
+    height: 100%;
+    
+}
+.s3-titular{
+    color: #11327a;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin-top: 12px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.s3-parrafo{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    color: #143d93;
+    justify-content: start;
+    align-items: flex-start;
+   
+}
+
+
+
+
+
+// ---section 4------------------------------------------
+.s4-contenedor{
+    margin: 12px;
+    background-color: #f2edd9;
+    border-radius: 10px;
+    height: 80vh;
+}
+.s4-titularexterno{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.s4-titular{
+    font-size: 27px;
+    margin-bottom: 14px;
+    padding-top: 1rem;
+    color: #11327a;
+}
+
+.s4-titularB{
+    font-size: 20px;
+    margin-bottom: 14px;
+    padding-top: 1rem;
+    color: #11327a;
+    margin-left: 18px;
+}
+
+ 
+.home-testimonial-bottom {
+   
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px
+}
+
+.home-testimonial h3 {
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+
+
+.testimonial-inner {
+    position: relative;
+    top: -174px
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px
+}
+
+.testimonial-inner .tour-desc {
+    border-radius: 5px;
+}
+
+.color-grey-3 {
+   
+    font-size: 14px;
+
+}
+
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.link-position {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// ---section 5-----------------------------------------------
+.s5-contenedor{
+    margin-bottom: 19px;
+    margin-top: 19px;
+    border-radius: 10px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    gap: 3rem;
+   
+ 
+}
+
+.s5-titular{
+    color: #11327a;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin-top: 12px;
+}
+
+.s5-bloque1 .s2-bloque2{
+    width: 50%;
+    margin: 12px;
+    
+}
+.s5-logobox{
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: flex;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      
+}
+
+.s5-logobox img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+// ---section 6--------
+
+
+
+
+
+// ---section 7--------
+.S7-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+  
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    background-color:  #f2edd9;
+    color: #11327a;
+}
+.S7listaA{ 
+    align-self: flex-start;
+}
+
+.S7listaA .S7listaB .S7listaC{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    height: 30vh;
+    width: 60vh;
+}
+.S7title-lista{
+    font-size: 23px;
+    margin-bottom: 14px;
+    padding-top: 1rem;
+}
+.S7parrafo-lista{
+     font-size: 14px;
+     margin-bottom: 5px;
+}
+.S7logobox img{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+.S7logobox{
+    width: 300;
+    height: 150px;
+    object-fit: cover;
+    display: flex;
+
+}
+.S7icono{
+   
+    color:#11327a;
+    font-size: 12px;
+}
+
+// ---section 8--------
+
+// ---section 9--------

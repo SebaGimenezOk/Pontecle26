@@ -1,15 +1,11 @@
 /*-----Media Queries Tablet ------------------------------ */
 
 @media screen and (max-width: 1024px) {
-    header {
-        height: auto;
-        flex-direction: column;
-       
-    }
-    .header_header {
-        height: auto;
+    .foot{
+        display: flex;
         flex-direction: column;
         
+<<<<<<< HEAD
     }
     .menuhorizontal {
         flex-direction: column;
@@ -57,7 +53,11 @@
         display: none;
 
     }
+=======
+>>>>>>> borrador
 
+    } 
+   
 
 }
 
@@ -72,6 +72,7 @@
 
 /* -----Media Queries Mobile -------------------------- */
 @media screen and (max-width: 600px){
+<<<<<<< HEAD
             header {
                 height: auto;
                 flex-direction: column;
@@ -134,4 +135,72 @@
                 display: none;
             }
 
+=======
+     .foot{
+         display: flex;
+         flex-direction: column;
+         flex-wrap: nowrap;
+         
+     } 
+    .s1search{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .s2-contenedor{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .s2-ladoA .s2-ladoB{
+        object-fit: cover;
+        display: flex;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .s2-titular{
+        font-size: 32px !important;
+    }
+
+
+
+
+    .s3-contenedor{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .s3-logobox{
+        object-fit: cover;
+        display: flex;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .s4-contenedor{
+        flex-direction: column;
+        overflow: hidden;
+        background-color: #f2edd9;
+        padding: 12px;
+    }
+    .s5-contenedor{
+       padding: 15px;
+       gap: 0;
+   }
+     
+
+
+
+    .s7-contenedor{
+        flex-direction: column;
+    }
+    
+    .envolvente-ab{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        max-width: 300px;
+        
+    } 
+  
+   
+   
+>>>>>>> borrador
 }

@@ -13,34 +13,17 @@
     align-items:$eje-secundario ;
 }
 
+
  /* --- estilos General ---------------------------------- */
 
 
 body {
     font-family: $tipografia-general !important;
-    background-color: $ColorDegradado;
-  
-   
-}
-
-
-
-li {
-   list-style: none;  
-}
-h1 h2 h3 h4 h5 h6 {
-    letter-spacing: -2px;
-    color: $tipografia-general;
-    color: $Colorprincipal;
     
+    min-height: 100vh !important;
+
 }
 
-
-
-p {
-    font-size: 18px ;
-    color: rgb(245, 125, 56);
-}
 
 .btn-open-sidebar{
     display: none;
@@ -445,6 +428,7 @@ a:hover, h1:hover, h2:hover, h3:hover  {
         display: flex;
         
 }
+<<<<<<< HEAD
 .reggiano_titulo2{
     color: rgb(245, 125, 56);
     font-size: 5rem;
@@ -454,13 +438,51 @@ a:hover, h1:hover, h2:hover, h3:hover  {
     padding: 1rem;
     justify-content: center;
 }   
+=======
 
+.encabezado{
+    display: flex;
+}
+.cabecera1{
+    height: 100vh;
+    width: 100%;
+   
+}
+.flyer-1{
+    display: flex;
+    position: relative;
+    padding: 23px;
+}
+>>>>>>> borrador
+
+.izquierda{
+    width: 50%;
+    height: 70vh;
+}
+.derecha{
+    width: 50%;
+    height: 70vh;
+}
+
+
+.izquierda img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.derecha img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
 
 
 /* Animacion texto bienvenida */
 
 .title-container{
-    height: 70vh;
+    height: 40vh;
     background-image: url(/imagenes/fondo-animacion-3.jpg);
     background-repeat: no-repeat;
     padding: 3rem;
@@ -518,9 +540,6 @@ label{
 select{
     color: rgb(245, 125, 56);
 }
-
-
-
 
 
 

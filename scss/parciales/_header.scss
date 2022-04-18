@@ -1,60 +1,10 @@
 /* --- Estilos Header -------------------------- */
-header{
-    background: $ColorDegradadoBlue;
-    height: 100px;  
-}
 
 
-.header_header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 7rem;
-    padding-right: 9rem;
-    height: 100%;
-   
-}
-.header_marca{
-    width: 190px;
-    height: 190px;
-}
+.envoltura-header{
+    height: 10vh;
+    background-color:#11327a;
 
-.header_marca img {
-    height: 100%;
-}
-
-
-.contenedora {
-    display: flex;
-    flex-direction: row;
-    background-color: $ColorDegradado;
-
-}
-.bg-dark{
     
-    padding-left: 7rem;
-    padding-right: 9rem;
-    gap: 3rem;
-    background: $ColorDegradadoBlue;
-    
- 
 }
-
-
-
-.listas {
-    text-decoration: none;
-    color: $Colorsecundario;
-    font-size: 18px;
-}
-.menuhorizontal {
-    display: flex;
-    gap: 1.5rem;
-}
-.dropdown-item, .dropdown-menu, .dropdown-divider{
-    background:$ColorDegradadoBlue;
-    color:     $Colorsecundario;
-}
-
 

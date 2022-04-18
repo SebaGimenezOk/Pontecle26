@@ -1,36 +1,85 @@
 
-footer{
-    position: relative;
-    padding-left: 8rem;
-    padding-right: 5rem;
-    max-width: 100%;
-    background:$ColorDegradadoBlue;
-      
-    .footer__listas{
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        font-size: 18px;
-    }
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    background-color: #040c1f;
+    color: #f2edd9;
+
 }
-.footer__contenedor{
-    max-width: auto;
+.foot-social{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+
+.listaA{ 
+    align-self: flex-start;
+}
+
+
+.listaA .listaB .listaC{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    height: 30vh;
+    width: 60vh;
+    
+}
+.listaF{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 15px;
+   
+
+}
+.logobox img{
+    width: 100%;
+    height: 100%;
+   
+}
+.logobox{
+    width: 300;
     height: 150px;
+    object-fit: cover;
     display: flex;
-    position:relative;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;  
-}
 
- 
-.listas {
+}
+.title-lista{
+    font-size: 23px;
+    margin-bottom: 14px;
+    padding-top: 1rem;
+}
+.parrafo-lista{
+     font-size: 14px;
+     margin-bottom: 5px;
+     display: flex;
+    
+   
+}
+.icono-blanco{
+   
+    color: #f2edd9;
+    font-size: 12px;
+}
+a{
     text-decoration: none;
-    color: $Colorsecundario;
-    font-size: 18px;
 }
-.menuhorizontal {
-    display: flex;
-    gap: 1.5rem;
+.linkeado{
+    color: #f2edd9;
+
 }
-
-
+.icono-foot{
+    color: #f2edd9;
+    font-size: 24px;
+}

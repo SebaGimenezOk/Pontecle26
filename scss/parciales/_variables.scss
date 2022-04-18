@@ -1,15 +1,17 @@
+
 $Colorprincipal: #11327a;
+
 $Colorsecundario: #f2edd9;
+
 $tipografia-general: 'Montserrat', sans-serif;
-$ColorDegradado:linear-gradient(to right,
-#e2cf9c, #f2edd9, #f2edd9, #e2cf9c);
 
-$ColorDegradadoBlue:linear-gradient(to right,
-#11327a, #11327a, #376fce, #11327a);
+$ColorDegradado:linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c);
 
-$ColorDegradadoTerciario:linear-gradient(to right,
- #f2edd9, #f2edd9, #e2cf9c, #e2cf9c, );
+$ColorDegradadoBlue:linear-gradient(to right, #11327a, #11327a, #376fce, #11327a);
 
+$ColorDegradadoTerciario:linear-gradient(to right, #f2edd9, #f2edd9, #e2cf9c, #e2cf9c, );
+
+$Transparencia:rgba(255, 255, 255, 0.023);
 
 
 $social-media: (
@@ -17,5 +19,6 @@ $social-media: (
     facebook: #3a5795,
     whatsapp: #00bb2d,
 );
+
 
 
