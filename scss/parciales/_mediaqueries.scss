@@ -37,6 +37,19 @@
         flex-direction: column;
         gap: 12px;
     }
+    .s2-ladoA .s2-ladoB{
+        object-fit: cover;
+        display: flex;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .s2-titular{
+        font-size: 32px !important;
+    }
+
+
+
+
     .s3-contenedor{
         flex-direction: column;
         gap: 12px;
@@ -44,9 +57,22 @@
     .s3-logobox{
         object-fit: cover;
         display: flex;
-        height: 300px !important;
-        width: 300px !important;
+        height: 100% !important;
+        width: 100% !important;
     }
+    .s4-contenedor{
+        flex-direction: column;
+        overflow: hidden;
+        background-color: #f2edd9;
+        padding: 12px;
+    }
+    .s5-contenedor{
+       padding: 15px;
+       gap: 0;
+   }
+     
+
+
 
     .s7-contenedor{
         flex-direction: column;
