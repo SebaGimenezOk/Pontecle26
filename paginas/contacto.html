@@ -19,86 +19,137 @@
     <link rel="shortcut icon" href="/imagenes/favicon-3.png">
 </head>
 <body>
-  <header>
-    <div>
-      <nav class="navbar fixed-top navbar-expand navbar-dark">
-        <div class="container-fluid envoltura-header">
-            <div class="navbar-nav justify-content-center align-items-center mx-auto my-2">
-              <a class="nav-link" href="./empresa.html">Empresa</a>
-              <a class="nav-link" href="./productos.html">Productos</a>
-              <a class="nav-link" href="../index.html">  <img class="nav-link" src="/imagenes/100px.png" alt=""></a>
-              <a class="nav-link" href="./recetas.html">Recetas</a>
-              <a class="nav-link" href="../index.html">Inicio</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+
+ <!-- encabezado -->
+ 
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #040c1f;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Ponteclé</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./empresa.html">Empresa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./recetas.html">Recetas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Inicio</a>
+        </li>
+      </ul>
     </div>
-         </header>
-  
-    <main>
-     <section class="fondosection4">
-           <div class="reggiano_titulo2"> 
-               <h1>Sumate a la Familia</h1>
-            </div>
+  </div>
+</nav>
+<!-- -------------------- -->
+    <main class="main_view">
+    <div class="container">
+       <div class="s8-contenedor">
+         <div class="s8-contenedor_intermedio">
+          <h1 class="s8-titular">Resgistrate acá</h1>
 
-         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <form action="">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Escribe tu eMail</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                          </div>
-                          <div class="mb-3">
-                            <label for="tipo" class="form-label">mas opciones </label>
-                            <select id="tipo" class="tipo" aria-label="Default select example">
-                                <option selected>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Quieres comentarnos algo?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
-                         
-                       </form>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="mb-3">
-                       <img src="../imagenes/campo vaca 1.jpg" class="img-fluid rounded float-end" alt="lavaca">
-                    </div>
-                </div>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="s8-subtitulos">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
             </div>
-        </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="s8-subtitulos">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12 ">
+              <label for="inputAddress" class="s8-subtitulos">Dirección</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+          
+            <div class="col-md-6">
+              <label for="inputCity" class="s8-subtitulos">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="s8-subtitulos">Pais</label>
+              <select id="inputState" class="form-select">
+                <option selected>Elegir...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="s8-subtitulos">Código Postal</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="s8-subtitulos" for="gridCheck">Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+         
+         </div>
+       </div>
 
-     </section>
+
+
 
 <section>
 
+  <div class="container">
+    <div class="s8-contenedor_secundario">
+      <div class="listaA">
+        <h3 class="title-lista">Lácteos PonteClé SRL</h3>
+          <p class="parrafo-lista">Planta: Arroyo Clé, Dpto Tala, E.R.</p>
+          <p class="parrafo-lista">Oficinas: General Galarza, Dpto Gualeguay, E.R.</p>
+          <p class="parrafo-lista">Entre Ríos. Argentina</p>
+      </div>
+      <div class="s7listaA">
+       <h3 class="title-lista">Contactate</h3>
+       <div class="listaB">
+        
+        <p><a class="s7icono" href="https://goo.gl/maps/BuaV89WKqdAuK2WQ8"><i class="fas fa-map-marker-alt"></i></a>  Ubicación de Planta   </p>
+         <p> <i class="fas fa-phone-square"></i>  0800 53743 458358</p>
+        <p> <a class="s7icono" href="mailto:info@pontecle.coma.r"> <i class="fas fa-at"></i></a>  info@pontecle.com.ar</p>
+       </div>
+     </div>  
+      <div class="s7listaC">
+        <div class="s8logobox" >
+          <div>
+            <img class="s8logobox" src="/imagenes/logo-letra-blanco-sin-fondo.png" alt="">
+          </div>
+      </div>
+    </div>
+  </div>
+  
+
 </section>
 
+
+
+       
     </main>
-    
+    <!-- -----------------end main -->
     <footer>
-        <div class="footer__contenedor" >
-            <div>
-                <a href="../index.html"><img src="../imagenes/logo-letra-blanco-sin-fondo.png" alt="logo blanco"></a>
-            </div>
-            <div>
-                <nav>
-                    <ul class="menuhorizontal">
-                    <li><a class="footer__listas" href="../index.html">Inicio</a></li>
-                    <li><a class="footer__listas" href="../paginas/empresa.html">Empresa</a></li>
-                    <li><a class="footer__listas" href="../paginas/productos.html">Productos</a></li>
-                    <li><a class="footer__listas" href="../paginas/recetas.html">Recetas</a></li>
-                    <li><a class="footer__listas" href="contacto.html">Contacto</a></li>
-                   </ul>
-                 </nav>
-            </div>
+      <div class="foot">
+        <div class="listaF">
+          <h5 class="title-lista">Seguinos en nuestras redes</h5>
+          <div class="listaF">
+            <a class="icono-foot" href=""><i class="fab fa-whatsapp-square"></i> </a>
+            <a class="icono-foot" href=""> <i class="fab fa-facebook"></i> </a> 
+            <a class="icono-foot" href=""> <i class="fab fa-twitter"></i> </a>
+          </div>
         </div>
+        <div class="listaF">
+          <p class="parrafo-lista">Derechos Reservados</p>
+         </div>
+       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

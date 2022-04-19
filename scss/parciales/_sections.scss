@@ -398,6 +398,86 @@
     font-size: 12px;
 }
 
-// ---section 8--------
+// ---section 8 hoja contacto------------------------
+.main_view{
+    height: 100vh;
+}
 
-// ---section 9--------
+.s8-contenedor{
+    background: linear-gradient(rgba(92, 130, 171, 0.7), rgba(39, 21, 113, 0.7)), url(/imagenes/fondo-de-contacto.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 100vh;
+    padding: 2rem;
+    text-shadow: 1px 1px 9px #25375f;
+
+}
+
+
+.s8-contenedor_intermedio{
+    flex-direction: column;
+    height: 90vh;
+    padding: 1rem;
+    border-style:solid;
+    border-radius: 17px;
+    border-color: #ffffff;
+    border-width: 8px;
+}    
+
+.s8-contenedor_secundario{
+    background: linear-gradient(rgba(92, 130, 171,0.6), rgba(39, 21, 113, 0.7)), url(/imagenes/fondo-de-contacto.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 90vh;
+    padding: 1rem;
+    border-style:solid;
+    border-radius: 17px;
+    border-color: #ffffff;
+    border-width: 8px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #11327a;
+}
+
+
+.S8logobox img{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+.S8logobox{
+    
+    display: flex;
+    
+    object-fit: cover;
+    justify-content: center;
+
+    
+    
+}
+.s8-titular{
+    color: #f2edd9;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-top: 1px;
+    margin-bottom: 60px;
+    
+}
+.s8-subtitulos{
+    color: #f2edd9;
+
+}
+
+
+
+
+
+
+
+
+// ---section 9--------------------------------
