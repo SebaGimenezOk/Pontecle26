@@ -78,5 +78,59 @@
         max-width: 300px;
         
     } 
-  
+ 
+    .s8-titular{
+        padding-top: 50px !important;
+        font-size: 30px !important;
+    }
+    .s8-contenedor{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }   
+    
+    .s8-contenedor_secundario{
+        background: linear-gradient(rgba(92, 130, 171,0.6), rgba(39, 21, 113, 0.7)), url(/imagenes/fondo-form-baja-res.jpg);
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-style:solid;
+        border-radius: 17px;
+        border-color: #ffffff;
+        border-width: 8px;
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #11327a;
+        padding: 20px;
+        
+    }
+    .s8-form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .s9-logobox{
+        display: none !important;
+    }
+    .s9-iconosblue{
+        display: flex;
+        gap: 12px;
+        margin-top: 12px;  
+        color: #11327a;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s9-iconotitulo {
+        color:$Colorprincipal;
+        font-size: 14px;
+        gap: 16px;
+    }
+    .s9-icono{
+        font-size: 34px;
+    }
+
+
 }

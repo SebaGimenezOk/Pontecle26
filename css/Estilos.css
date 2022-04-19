@@ -520,7 +520,48 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    max-width: 300px; } }
+    max-width: 300px; }
+  .s8-titular {
+    padding-top: 50px !important;
+    font-size: 30px !important; }
+  .s8-contenedor {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+  .s8-contenedor_secundario {
+    background: linear-gradient(rgba(92, 130, 171, 0.6), rgba(39, 21, 113, 0.7)), url(/imagenes/fondo-form-baja-res.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-radius: 17px;
+    border-color: #ffffff;
+    border-width: 8px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #11327a;
+    padding: 20px; }
+  .s8-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+  .s9-logobox {
+    display: none !important; }
+  .s9-iconosblue {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+    color: #11327a;
+    flex-direction: column;
+    align-items: center; }
+  .s9-iconotitulo {
+    color: #11327a;
+    font-size: 14px;
+    gap: 16px; }
+  .s9-icono {
+    font-size: 34px; } }
 
 .s1-contenedor {
   width: 100%;
@@ -681,7 +722,7 @@ a {
   align-items: center; }
 
 .s4-titular {
-  font-size: 27px;
+  font-size: 56px;
   margin-bottom: 14px;
   padding-top: 1rem;
   color: #11327a; }
@@ -814,42 +855,30 @@ a {
   color: #11327a;
   font-size: 12px; }
 
-.main_view {
-  height: 100vh; }
-
 .s8-contenedor {
-  background: linear-gradient(rgba(92, 130, 171, 0.7), rgba(39, 21, 113, 0.7)), url(/imagenes/fondo-de-contacto.jpg);
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-direction: column;
-  height: 100vh;
-  padding: 2rem;
-  text-shadow: 1px 1px 9px #25375f; }
-
-.s8-contenedor_intermedio {
-  flex-direction: column;
-  height: 90vh;
-  padding: 1rem;
-  border-style: solid;
-  border-radius: 17px;
-  border-color: #ffffff;
-  border-width: 8px; }
+  display: flex;
+  justify-content: center;
+  align-content: center; }
 
 .s8-contenedor_secundario {
-  background: linear-gradient(rgba(92, 130, 171, 0.6), rgba(39, 21, 113, 0.7)), url(/imagenes/fondo-de-contacto.jpg);
+  background: linear-gradient(rgba(92, 130, 171, 0.6), rgba(39, 21, 113, 0.7)), url(/imagenes/fondo-form-baja-res.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  flex-direction: column;
-  height: 90vh;
-  padding: 1rem;
   border-style: solid;
   border-radius: 17px;
   border-color: #ffffff;
   border-width: 8px;
   color: #ffffff;
-  text-shadow: 1px 1px 3px #11327a; }
+  text-shadow: 1px 1px 3px #11327a;
+  padding: 20px; }
+
+.s8-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  line-height: 3; }
 
 .S8logobox img {
   width: 100%;
@@ -870,3 +899,85 @@ a {
 
 .s8-subtitulos {
   color: #f2edd9; }
+
+.s9-contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 20px;
+  margin: 12px;
+  border-radius: 10px;
+  gap: 14px;
+  background-color: #f2edd9; }
+
+.s9-contenedor2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 30px;
+  margin: 12px;
+  border-radius: 10px;
+  gap: 14px;
+  background-color: beige; }
+
+.s9-ladoA .s9-ladoB {
+  width: 50%; }
+
+.s9-ladoA {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-content: center; }
+
+.s9-ladoB {
+  display: flex;
+  object-fit: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-left: 5px; }
+
+.s9-logobox {
+  display: flex;
+  object-fit: cover;
+  width: 100%; }
+
+.s9-logobox img {
+  width: 100%;
+  height: 100%; }
+
+.s9-titular {
+  color: #11327a;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  justify-content: center;
+  align-items: center; }
+
+.s9-subtitulo {
+  color: #11327a;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  justify-content: center;
+  align-items: center; }
+
+.s9-parrafo {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: flex;
+  color: #143d93;
+  justify-content: start;
+  align-items: flex-start; }
+
+.s9-iconosblue {
+  display: flex;
+  gap: 45px;
+  margin-top: 12px;
+  color: #11327a; }
+
+.s9-iconotitulo {
+  color: #11327a;
+  font-size: 16px;
+  gap: 16px; }
+
+.s9-icono {
+  font-size: 56px; }

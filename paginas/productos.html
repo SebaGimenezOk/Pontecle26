@@ -19,29 +19,33 @@
     <link rel="shortcut icon" href="/imagenes/favicon-3.png">
 </head>
 <body>
-  <header>
-    <div>
-      <nav class="navbar fixed-top navbar-expand navbar-dark">
-        <div class="container-fluid envoltura-header">
-            <div class="navbar-nav justify-content-center align-items-center mx-auto my-2">
-              <a class="nav-link" href="/paginas/empresa.html">Empresa</a>
-              <a class="nav-link" href="/index.html">Inicio</a>
-              <a class="nav-link" href="/index.html">  <img class="nav-link" src="/imagenes/100px.png" alt=""></a>
-              <a class="nav-link" href="/paginas/recetas.html">Recetas</a>
-              <a class="nav-link" href="/paginas/contacto.html">Contacto</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #040c1f;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Ponteclé</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./empresa.html">Empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./recetas.html">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
-         </header>
+  </nav>
     
+<main>
 
-
-
-   <main>
-
-<!------------------------------------------------->
 <section class="produccion">
     <div class="container-fluid">
         <div class="row">
@@ -122,25 +126,21 @@
 
 
    </main> 
-    
    <footer>
-    <div class="footer__contenedor" >
-        <div>
-            <a href="../index.html"><img src="../imagenes/logo-letra-blanco-sin-fondo.png" alt="logo blanco"></a>
-        </div>
-        <div>
-            <nav>
-                <ul class="menuhorizontal">
-                <li><a class="footer__listas" href="../index.html">Inicio</a></li>
-                <li><a class="footer__listas" href="../paginas/empresa.html">Empresa</a></li>
-                <li><a class="footer__listas" href="../paginas/productos.html">Productos</a></li>
-                <li><a class="footer__listas" href="../paginas/recetas.html">Recetas</a></li>
-                <li><a class="footer__listas" href="contacto.html">Contacto</a></li>
-               </ul>
-             </nav>
-        </div>
+    <div class="foot">
+     <div class="listaF">
+       <h5 class="title-lista">Seguinos en nuestras redes</h5>
+       <div class="listaF">
+         <a class="icono-foot" href=""><i class="fab fa-whatsapp-square"></i> </a>
+         <a class="icono-foot" href=""> <i class="fab fa-facebook"></i> </a> 
+         <a class="icono-foot" href=""> <i class="fab fa-twitter"></i> </a>
+       </div>
+     </div>
+     <div class="listaF">
+       <p class="parrafo-lista">Derechos Reservados</p>
+      </div>
     </div>
-</footer>
+ </footer>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
