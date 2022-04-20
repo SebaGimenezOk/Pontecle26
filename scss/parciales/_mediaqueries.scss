@@ -4,10 +4,7 @@
     .foot{
         display: flex;
         flex-direction: column;
-        
-
-    } 
-   
+    
 
 }
 
@@ -63,7 +60,9 @@
        padding: 15px;
        gap: 0;
    }
-     
+    .s5-logobox{
+        display: none !important;
+    }
 
 
 
@@ -104,6 +103,7 @@
         color: #ffffff;
         text-shadow: 1px 1px 3px #11327a;
         padding: 20px;
+        position: relative;
         
     }
     .s8-form{
@@ -131,6 +131,7 @@
     .s9-icono{
         font-size: 34px;
     }
-
-
+}
+  
+ 
 }
