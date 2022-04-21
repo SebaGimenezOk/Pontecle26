@@ -131,7 +131,26 @@
     .s9-icono{
         font-size: 34px;
     }
+    .s14-row{
+        flex-direction: column !important;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .s14-card{
+        border: 0;
+        width: 100% !important;
+        justify-content: center;
+        align-content: center;
+        margin: 5px 2px !important;
+    }
+
+
+
+
+
+
+
 }
-  
  
 }
