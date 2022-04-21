@@ -606,7 +606,7 @@ a {
   align-content: center; }
 
 .s8-contenedor_secundario {
-  background: linear-gradient(rgba(92, 130, 171, 0.6), rgba(39, 21, 113, 0.7)), url(/imagenes/fondo-form-baja-res.jpg);
+  background: linear-gradient(rgba(92, 130, 171, 0.6), rgba(39, 21, 113, 0.7)), url(../imagenes/fondo-form-baja-res.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
