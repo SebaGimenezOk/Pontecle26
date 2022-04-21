@@ -55,20 +55,6 @@ a:hover, h1:hover, h2:hover, h3:hover {
     font-weight: 700;
     letter-spacing: -6; }
 
-.iconografia__azul {
-  display: flex;
-  flex: row;
-  gap: 40px; }
-
-.icono__azultitulo {
-  color: #11327a;
-  font-size: 20px;
-  gap: 2px; }
-
-.icono__azul {
-  color: #11327a;
-  font-size: 25px; }
-
 /* ---Estilos del Producto------------------------------- */
 .producto {
   padding: 100px 1rem;
@@ -125,52 +111,6 @@ a:hover, h1:hover, h2:hover, h3:hover {
   padding: 1rem;
   margin-top: 1rem; }
 
-.contenedor-receta {
-  max-width: 800px;
-  flex-direction: row;
-  flex-wrap: nowrap; }
-
-.card-title {
-  color: #11327a; }
-
-.card-text {
-  font-size: 18px;
-  color: #11327a; }
-
-.tope {
-  width: 1900px;
-  margin: 0 auto; }
-
-.produccion {
-  background-color: #dbdfe0;
-  background-image: linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c); }
-
-/*---- Estilo Formulario ------------------- */
-.formulario {
-  height: 60vh;
-  max-width: 1200px;
-  display: flex;
-  background-color: #f57d38;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-  border-radius: 12px;
-  margin-top: 1rem; }
-
-.formulario__formulario {
-  justify-content: center;
-  flex-direction: row;
-  margin: 0 auto;
-  border-radius: 20px;
-  background-color: #f57d38;
-  color: white;
-  padding: 3rem;
-  line-height: 1.8; }
-
-.titulo__formulario {
-  text-align: center;
-  margin: 1rem; }
-
-/* estilos Index -------------------------------*/
 .card-text p {
   font-size: 2rem; }
 
@@ -184,178 +124,14 @@ a:hover, h1:hover, h2:hover, h3:hover {
   padding: 3rem;
   margin-bottom: 4rem; }
 
-/*--- Estilo de Recetas -------------------------------------- */
-.receta {
-  padding: 1rem;
-  display: flex;
-  position: relative; }
-  .receta__contenedor {
-    max-width: 1300px;
-    min-height: 100vh;
-    flex-wrap: nowrap;
-    justify-content: left;
-    padding-left: 1rem;
-    background-color: #11327a;
-    margin: 0 auto; }
-  .receta__contenedor img {
-    width: 45%;
-    padding: 3rem; }
-  .receta__contenedor p {
-    line-height: 1.2;
-    padding: 2rem;
-    font-size: 16px; }
-  .receta__contenedor h1 {
-    padding: 3rem; }
-
-.recetario {
-  background-color: #dbdfe0;
-  background-image: linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c);
-  border: 40px; }
-
 .card-group {
   margin: 2rem 4rem 2rem 4rem;
   border-radius: 25px;
   width: 100%; }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1rem;
-  width: 100%; }
-
-.grid__container__img {
-  width: 100%;
-  border-radius: 23px; }
-
-.overlay {
-  background-color: #11327a;
-  opacity: 0;
-  height: 100%;
-  z-index: 1;
-  transform: translate(0%, -100%);
-  transition: 0.8s ease;
-  position: relative;
-  border-radius: 23px; }
-
-.grid__container:hover .overlay {
-  opacity: 1; }
-
-.overlay__title {
-  font-size: 1,2 rem;
-  color: #f2edd9;
-  text-align: center;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.overlay__description {
-  color: #f2edd9;
-  font-size: 0,8rem;
-  text-align: center;
-  position: absolute;
-  top: 54%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
 .container {
   display: flex;
   width: 100%; }
-
-.hero__right23 {
-  width: 20%; }
-
-.fondosection {
-  background: linear-gradient(to right, #e2cf9c, #f2edd9, #f2edd9, #e2cf9c);
-  height: 1900px;
-  margin: 2rem;
-  padding: 2rem;
-  display: flex;
-  position: relative; }
-
-.fondosection2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(/imagenes/fondo-section-3.jpg);
-  background-repeat: no-repeat;
-  height: 600px;
-  position: relative;
-  padding: 3rem;
-  margin: 2rem; }
-
-.titulocentro {
-  color: #f57d38;
-  height: 300px; }
-
-.fondosection3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(/imagenes/fondo-section-4.jpg);
-  background-repeat: no-repeat;
-  height: 600px;
-  position: relative;
-  padding: 3rem;
-  margin: 2rem; }
-
-.fondosection4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  position: relative;
-  padding: 3rem;
-  margin: 2rem;
-  width: 100%; }
-
-.reggiano {
-  width: 100%; }
-
-.reggiano_titulo {
-  color: #11327a;
-  font-size: 7rem;
-  font-weight: 500;
-  letter-spacing: -8px; }
-
-.hero__contenedor23 {
-  max-width: 1400px;
-  margin: 16px;
-  min-height: 90vh;
-  justify-content: end;
-  align-items: center;
-  display: flex; }
-
-.encabezado {
-  display: flex; }
-
-.cabecera1 {
-  height: 100vh;
-  width: 100%; }
-
-.flyer-1 {
-  display: flex;
-  position: relative;
-  padding: 23px; }
-
-.izquierda {
-  width: 50%;
-  height: 70vh; }
-
-.derecha {
-  width: 50%;
-  height: 70vh; }
-
-.izquierda img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.derecha img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
 
 select {
   color: #f57d38; }
